@@ -21,3 +21,5 @@ app.get('/ayuda', (req, res) => {
 app.listen(port, () => {
     console.log('servidor a su servicio en el puerto', port)
 })
+
+//para prender el servidor usamos Nodemon (importante instalarlo de manera global)
